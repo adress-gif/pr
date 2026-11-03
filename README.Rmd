@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# pr
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of pr is to enable users to easily calculate common powers of numeric data.
+
+## Installation
+
+Package installation can be done directly by calling:
+
+devtools::install_github("adress-gif/pr")
+
+``` r
+# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```
+
+## Example
+
+This is a basic example which shows you how to use the `aquare` function from the `pr` package.
+
+```{r example}
+library(pr)
+
+#square a single numeric
+square(4)
+
+#square a numeric vector
+square(c(2,3,4))
+```
